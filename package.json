@@ -1,0 +1,29 @@
+{
+  "name": "node-modules-demo",
+  "version": "1.0.0",
+  "description": "Demo about the usage of ES6 modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/orangecms/node-modules-demo.git"
+  },
+  "keywords": [
+    "es6;import;export;require;demo"
+  ],
+  "author": "Daniel Msalowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orangecms/node-modules-demo/issues"
+  },
+  "homepage": "https://github.com/orangecms/node-modules-demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "jasmine": "^2.6.0",
+    "jasmine-expect": "^3.7.0"
+  }
+}
